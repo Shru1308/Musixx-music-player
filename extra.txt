@@ -1,0 +1,22 @@
+
+header .song_side {
+   /* position: relative; */
+   width: 75%;
+   height: 100%;
+   /* border: 1px solid #fff; */
+   background-color: #000000;
+   color: #ffff;
+ }
+
+.song_side .display {
+   // /* display: flex;
+   // flex-wrap: wrap; */
+   width: 90%;
+   height: 90%;
+   background-color: #141414;
+   padding: 0.7rem;
+   margin: 0.4rem;
+   border-radius: 0.3rem;
+   font-weight: 500;
+
+}
