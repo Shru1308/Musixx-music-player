@@ -105,7 +105,6 @@
         </div>
     </div>
 
-
     <div class="song_side">
         <div class="display">
             <nav>
@@ -114,9 +113,12 @@
                     <li>MY LIBRARY</li>
                     <li>RADIO</li>
                 </ul>
-                <div class="search">
-                    <i class="bi bi-search"></i>
-                    <input type="text" placeholder="Search Music...">
+                <div class="searchbar">
+                    <div class="search">
+                        <i class="bi bi-search"></i>
+                        <input type="text" id="searchInput" placeholder="Search Music...">
+                    </div>
+                    <div id="searchResults" hidden></div>
                 </div>
                 <div class="user">
                     <p>S</p>
@@ -317,6 +319,8 @@
     </div>
 </header>
     <script type="module" src="app.js"></script>
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <script type="module" src="search_music.js"></script>
 </body>
 
 </html>
